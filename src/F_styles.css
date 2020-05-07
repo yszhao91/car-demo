@@ -1,0 +1,17 @@
+body{margin:0;overflow:hidden;background:#fff;border:0}
+@font-face{font-family:myFont;src:url(../JS/FZHT_BX7_PZ.TTF)}
+*{font-family:myFont}
+.mySlides{display:none}
+img{vertical-align:middle}
+.dot{height:10px;width:10px;margin:5px;background-color:#bbb;border-radius:50%;display:inline-block;transition:background-color .6s ease}
+.dot:hover{cursor:pointer}
+#dotgroup{position:fixed;top:20px;left:50%;transform:translate(-50%,0)}
+.active{transform:translate(0,15%);position:fixed;background-color:#717171}
+.fade{-webkit-animation-name:fade;-webkit-animation-duration:2s;animation-name:fade;animation-duration:2s}
+@-webkit-keyframes fade{from{opacity:.5}
+to{opacity:1}
+}
+@keyframes fade{from{opacity:.5}
+to{opacity:1}
+}
+#floattitle{position:fixed;bottom:0;width:calc(100% - 30px);height:auto;background:rgba(0,0,0,.4);color:#fff;padding:10px;padding-left:20px;font-size:20px;text-align:left}

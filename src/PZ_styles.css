@@ -1,0 +1,21 @@
+body,html{height:100%;width:100%;padding:0;margin:0;overflow:auto;user-select:none;-ms-overflow-style:none;font-size:1px;background:#fff;scroll-behavior:smooth}
+@font-face{font-family:myFont;src:url(../JS/FZHT_BX7_PZ.TTF)}
+*{font-family:myFont}
+table,td,th{border-collapse:collapse;border:.0625rem solid silver;padding:15px}
+table{width:100%;table-layout:fixed}
+th{text-align:left;font-weight:400;width:25%;color:#323232}
+td{text-align:center;color:#000}
+.tb{display:none}
+.t{border:0 solid silver}
+#headline{position:fixed;top:0;background:#f5f5f5;white-space:nowrap;width:100%}
+#headline2{top:0;background:#f5f5f5;white-space:nowrap;width:100%}
+.color{color:#815f46}
+.w{display:inline-block}
+.btn{background:#efefef;color:#000;padding:15px;border-bottom:.0625rem solid silver}
+.btn:hover{cursor:pointer}
+.s{float:right}
+#end{margin-top:20px;line-height:40px}
+::-webkit-scrollbar{width:0;height:0}
+::-webkit-scrollbar-track{background:grey}
+::-webkit-scrollbar-thumb{background:silver}
+::-webkit-scrollbar-thumb:hover{background:#fff}

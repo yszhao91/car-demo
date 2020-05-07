@@ -1,0 +1,17 @@
+body,html{padding:0;margin:0;width:100%!important;height:100%!important;background:grey;user-select:none;-webkit-overflow-scrolling:touch!important;overflow:hidden!important;-ms-overflow-style:none}
+::-webkit-scrollbar{width:0;height:0}
+::-webkit-scrollbar-track{background:0 0}
+::-webkit-scrollbar-thumb{background:0 0}
+::-webkit-scrollbar-thumb:hover{background:0 0}
+#canvasx{width:100%!important;height:calc(100% - 90px)!important;background:red}
+#white{position:fixed;z-index:200;width:100%;height:100%;background:#fff;opacity:1;transition:.5s}
+#loadframeint{position:fixed;z-index:100;top:0;left:0;height:100%;width:100%;background:#fff;display:none}
+#loadinint{position:fixed;top:40%;left:50%;transform:translate(-50%,-40%);width:200px}
+#loadimg{margin:auto;width:200px}
+#loadnumberbg{position:fixed;width:200px;height:5px;background:silver;border-radius:5px}
+#loadnumber{width:200px;text-align:center;position:fixed;color:#000;transform:translate(0,-45px)}
+#loadnumberbar{width:50px;position:fixed;height:5px;display:block;background:#ba193b;border-radius:5px}
+#loadimg2int{transform:translate(-35%,10%);margin:auto;width:150px;height:auto;opacity:1;animation-name:imgint;animation-duration:1s;animation-fill-mode:forwards}
+@keyframes imgint{from{opacity:0}
+to{opacity:1}
+}

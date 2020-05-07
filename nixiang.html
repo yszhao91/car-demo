@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!-- saved from url=(0149)https://360show.borgward.com.cn/bx7360show/?szhdbm=20190909_bwbx7_PC&campaign_code=bwbx7&utm_medium=PC&utm_source=guanfang&tdsourcetag=s_pctim_aiomsg -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <title>360°全景体验宝沃BX7</title>
+    <link rel="stylesheet" href="./src/Index_styles.css">
+    <link rel="shortcut icon" href="https://mkt.borgward.com.cn/favicon.ico">
+    <script src="./src/dms.js"></script>
+    <script src="./src/jweixin-1.4.0.js"></script>
+    <script>
+        var mkt = 'https://mkt.borgward.com.cn/action/wechat-share';
+        var url = location.href;
+        var script = document.createElement('script');
+        script.src = mkt + '?url=' + encodeURIComponent(url) + '&callback=getWechat'
+        function getWechat(res)
+        {
+            if (res && res.status === 1) {
+                var configs = res.data || {};
+                configs.debug = false;
+                configs.jsApiList = ['updateAppMessageShareData', 'updateTimelineShareData'];
+                wx.config(configs);
+                wx.ready(function ()
+                {
+                    var title = '360°全景体验宝沃BX7';
+                    var desc = '安全品质一览无遗';
+                    var link = window.location.href;
+                    var timelineTitle = '360°全景体验宝沃BX7, 安全品质一览无遗';
+                    var imgUrl = 'https://img01.10101111cdn.com/download/ucarcdnstore/mmc/mmc/share/bx7_share.jpg';
+                    wx.updateAppMessageShareData({
+                        title: title,
+                        desc: desc,
+                        link: link,
+                        imgUrl: imgUrl
+                    });
+                    wx.updateTimelineShareData({
+                        title: timelineTitle,
+                        link: link,
+                        imgUrl: imgUrl
+                    })
+                });
+                if (script) {
+                    document.head.removeChild(script);
+                }
+            }
+        }
+        document.head.append(script);
+    </script>
+    <script>
+        !function (a, b, c, d, e)
+        {
+            a[c] = a[c] || {},
+                a[c].env = "",
+                a[c].id = d,
+                a[c].st = (new Date).getTime(),
+                a[c].env = "test" == a[c].env || "test2" == a[c].env || "pre" == a[c].env ? a[c].env : "";
+            var f = [],
+                g = b.createElement("script");
+            g.onload = g.onreadystatechange = function ()
+            {
+                if (!g.readyState || /loaded|complete/.test(g.readyState)) {
+                    g.onload = g.onreadystatechange = null;
+                    var a = f.length;
+                    if (0 == a) return !1;
+                    for (var b = 0; b < a; b++)"[object Function]" === Object.prototype.toString.call(f[b]) && f[b]()
+                }
+            }
+            g.src = "./src/dms.js";
+            var h = b.getElementsByTagName("script")[0];
+            h.parentNode.insertBefore(g, h),
+                a[c].putEvt = function (b)
+                {
+                    return a[c].putBe ? (b && b(), !1) : void f.push(b)
+                },
+                a[c].types = e;
+            for (var i = 0; i < a[c].types.length; i++) if ("pe" == a[c].types[i]) {
+                var j = [];
+                a.onerror = function (b, d, e, f)
+                {
+                    j.push("m=" + b + "&u=" + d + "&l=" + e + "&r=" + f),
+                        a[c].initPe = j.join(",")
+                };
+                break
+            }
+        }(window, document, "DMS", "bwbx7360showpc", ["rc", "pe", "rt", "cl", "se"]);
+
+
+    </script>
+
+    <style type="text/css" abt="234"></style>
+    <script>//remove baidu search ad
+        var _countAA = 0
+        function doBBBd()
+        {
+            var alla = document.getElementsByTagName('a')
+            for (var i = 0; i < alla.length; i++) {
+                if (/baidu.com\/(baidu.php\?url=|adrc.php\?t)/.test(alla[i].href)) {
+                    var _temp = alla[i].parentElement, loop = 0
+                    while (loop < 5) {
+                        _temp = _temp.parentElement
+                        loop++
+                        if (_temp.parentElement.id == 'content_left') {
+                            _temp.remove()
+                            break
+                        }
+                    }
+                }
+            }
+
+            if (_countAA++ < 20) {
+                setTimeout(doBBBd, 500)
+            }
+
+        }
+        doBBBd()
+        document.addEventListener('keyup', function () { _countAA -= 10; doBBBd() }, false)
+        document.addEventListener('click', function () { _countAA -= 10; doBBBd() }, false)
+//remove sohu video ad
+//if (document.URL.indexOf("tv.sohu.com") >= 0){
+//    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+//}
+//remove 56.com video ad
+//if (document.URL.indexOf("56.com") >= 0){
+//    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+//}
+    </script>
+</head>
+
+<body onload="getSizew()" onresize="getSizew()" style="">
+
+
+    <iframe id="iframe" src="./src/canvas_index.html"></iframe>
+
+    <div id="HP">
+
+        <div id="ALL" style="display: block;">
+
+            <div id="UIPanel">
+                <div id="float1">
+                    <div id="print">0%</div>
+                </div>
+
+                <div class="btn1" id="img_01" style="transform: scale(0.4); top: 40%; left: 15px;">
+                    <img class="size1" id="img_btn01" src="./src/icon01-1.png">
+                    <center class="font1">配置表</center>
+                </div>
+                <div class="btn1" id="img_02" style="transform: scale(0.4); top: 40%; right: 15px;">
+                    <img class="size1" id="img_btn02" src="./src/icon02-1.png">
+                    <center class="font1">查看内饰</center>
+                </div>
+
+                <div class="btn1" id="img_03" style="transform: scale(0.4); top: 40%; right: 15px;">
+                    <img class="size1" id="img_btn03" src="./src/icon03-1.png">
+                    <center class="font1">查看外观</center>
+                </div>
+
+                <div id="uiscale" style="transform: scale(0.4);">
+                    <div id="uitrans" style="transform: translate(0px, 0px);">
+                        <div id="float3" style="">
+                            <div class="btnc" id="img_04" style="">
+                                <img class="size2" id="img_btn04" src="./src/icon04-1.png">
+                                <center class="font1" id="img_btn04_text">车色</center>
+                            </div>
+                            <div class="btnc" id="img_05" style="">
+                                <img class="size2" id="img_btn05" src="./src/icon05-1.png">
+                                <center class="font1" id="img_btn05_text">车门</center>
+                            </div>
+
+                            <div class="btnc" id="img_06" style="">
+                                <img class="size2" id="img_btn06" src="./src/icon06-1.png">
+                                <center class="font1" id="img_btn06_text">内饰颜色</center>
+                            </div>
+
+                            <div class="btnc" id="img_07" style="">
+                                <img class="size2" id="img_btn07" src="./src/icon07-1.png">
+                                <center class="font1" id="img_btn07_text">前排</center>
+                            </div>
+
+                            <div class="btnc" id="img_08" style="">
+                                <img class="size2" id="img_btn08" src="./src/icon08-1.png">
+                                <center class="font1" id="img_btn08_text">配置</center>
+                            </div>
+                        </div>
+
+
+                        <div class="flaotall" id="float3_1" style="transform: translate(-716px, 0px);">
+                            <img class="size2x" id="img_btn04s" src="./src/icon04-2.png">
+                            <div class="flaotall_btn" id="float3_1_btn">
+                                <div class="size8" id="hide01" style="display: inline-block;">
+                                    <img class="size8x" id="btn08_01" src="./src/sc08_01.png">
+                                    <div class="redline" id="btn08_01_line" style="background: rgb(170, 29, 56);"></div>
+                                    <center class="font2" id="btn08_01_text" style="color: white;">深林棕</center>
+                                </div>
+                                <div class="size8" id="hide02" style="display: inline-block;">
+                                    <img class="size8x" id="btn08_02" src="./src/sc08_02.png">
+                                    <div class="redline" id="btn08_02_line" style=""></div>
+                                    <center class="font2" id="btn08_02_text" style="">太空灰</center>
+                                </div>
+                                <div class="size8" id="hide03" style="display: inline-block;">
+                                    <img class="size8x" id="btn08_03" src="./src/sc08_03.png">
+                                    <div class="redline" id="btn08_03_line" style=""></div>
+                                    <center class="font2" id="btn08_03_text" style="">玛瑙黑</center>
+                                </div>
+                                <div class="size8" id="hide04" style="display: inline-block;">
+                                    <img class="size8x" id="btn08_04" src="./src/sc08_04.png">
+                                    <div class="redline" id="btn08_04_line" style=""></div>
+                                    <center class="font2" id="btn08_04_text" style="">月光白</center>
+                                </div>
+                                <div class="size8" id="hide05" style="display: none;">
+                                    <img class="size8x" id="btn08_05" src="./src/sc08_05.png">
+                                    <div class="redline" id="btn08_05_line" style=""></div>
+                                    <center class="font2" id="btn08_05_text" style="">战斗灰</center>
+                                </div>
+                            </div>
+                            <img class="size2x" id="img_btn04x" src="./src/icon04-2.png">
+                        </div>
+
+                        <div class="flaotall" id="float3_2" style="transform: translate(154px, 0px);">
+                            <img class="size2x" id="img_btn08s" src="./src/icon08-2.png">
+                            <div class="flaotall_btn" id="float3_2_btn">
+                                <div class="size8">
+                                    <img class="size8x" id="btn09_01" src="./src/sc09_01_1.png">
+                                    <div class="redline" id="btn09_01_line" style=""></div>
+                                    <center class="font2" id="btn09_01_text" style="">五座</center>
+                                </div>
+                                <div class="size8">
+                                    <img class="size8x" id="btn09_02" src="./src/sc09_02_1.png">
+                                    <div class="redline" id="btn09_02_line" style=""></div>
+                                    <center class="font2" id="btn09_02_text" style="">五座</center>
+                                </div>
+                                <div class="size8">
+                                    <img class="size8x" id="btn09_03" src="./src/sc09_03_1.png">
+                                    <div class="redline" id="btn09_03_line" style=""></div>
+                                    <center class="font2" id="btn09_03_text" style="">五座</center>
+                                </div>
+                                <div class="size8">
+                                    <img class="size8x" id="btn09_04" src="./src/sc09_04_1.png">
+                                    <div class="redline" id="btn09_04_line" style=""></div>
+                                    <center class="font2" id="btn09_04_text" style="">五座</center>
+                                </div>
+                                <div class="size8">
+                                    <img class="size8x" id="btn09_05" src="./src/sc09_05_1.png">
+                                    <div class="redline" id="btn09_05_line" style="background: rgb(170, 29, 56);"></div>
+                                    <center class="font2" id="btn09_05_text" style="color: white;">五座</center>
+                                </div>
+                                <div class="size8">
+                                    <img class="size8x" id="btn09_06" src="./src/sc09_06_1.png">
+                                    <div class="redline" id="btn09_06_line" style=""></div>
+                                    <center class="font2" id="btn09_06_text" style="">七座</center>
+                                </div>
+                                <div class="size8">
+                                    <img class="size8x" id="btn09_07" src="./src/sc09_07_1.png">
+                                    <div class="redline" id="btn09_07_line" style=""></div>
+                                    <center class="font2" id="btn09_07_text" style="">TS</center>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flaotall" id="float3_3" style="transform: translate(-510px, 0px);">
+                            <img class="size2x" id="img_btn06s" src="./src/icon06-2.png">
+
+                            <div class="flaotall_btn" id="float3_3_btn">
+                                <div class="size8" id="hide06" style="display: inline-block;">
+                                    <img class="size8x" id="btn10_01" src="./src/sc10_01_1.png">
+                                    <div class="redline" id="btn10_01_line" style="background: rgb(170, 29, 56);"></div>
+                                    <center class="font2" id="btn10_01_text" style="color: white;">马鞍棕</center>
+                                </div>
+                                <div class="size8">
+                                    <img class="size8x" id="btn10_02" src="./src/sc10_02_1.png">
+                                    <div class="redline" id="btn10_02_line" style=""></div>
+                                    <center class="font2" id="btn10_02_text" style="">曜石黑</center>
+                                </div>
+                            </div>
+                            <img class="size2x" id="img_btn06x" src="./src/icon06-2.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="floatback" style="display: none;"></div>
+                <div id="float6" style="transform: translate(-50%, -45%) scale(0); opacity: 0; width: 80%;">
+                    <div id="floatimg" style="display: block;"></div>
+                    <iframe id="floathtml" src="./src/F7.html" frameborder="0"></iframe>
+                    <div id="floattitle" style=""></div><br>
+                    <img id="floatclose" src="./src/close.png" style="">
+                </div>
+
+                <div id="pzfloat"
+                    style="max-width: none; width: 100%; max-height: none; height: 100%; transform: translate(-50%, -45%) scale(0);">
+                    <div id="pzhead">
+                        <div id="headline" style="font-size: 30px; transform: translate(10px, 50%);">宝 沃 BX7 </div>
+                        <div id="headbtn" style="transform: translate(70px, 0px) scale(0.7);">
+                            <div class="headsize" id="pzhide1">
+                                <img class="headsizex" id="btnt1_01" src="./src/t1_1.png">
+                                <center class="font3" id="btnt1_01_text">二驱</center>
+                            </div>
+                            <div class="headsize" id="pzhide2">
+                                <img class="headsizex" id="btnt2_01" src="./src/t2_1.png">
+                                <center class="font3" id="btnt2_01_text">四驱</center>
+                            </div>
+                            <div class="headsize" id="pzhide3">
+                                <img class="headsizex" id="btnt3_01" src="./src/t3_1.png">
+                                <center class="font3" id="btnt3_01_text">BX7</center>
+                            </div>
+                            <div class="headsize">
+                                <img class="headsizex" id="btnt4_01" src="./src/t4_1.png">
+                                <center class="font3" id="btnt4_01_text">TS</center>
+                            </div>
+                            <div class="headsize" id="pzhide4">
+                                <img class="headsizex" id="pzclosein" src="./src/close_black.png">
+                                <center class="font3" id="btnt5_01_text">TS</center>
+                            </div>
+                        </div>
+                    </div>
+                    <iframe id="pziframe" src="./src/PZ_4.html" style="height: calc(100% - 12rem);"></iframe>
+                    <center id="cloase_bg" style="display: none;">
+                        <img id="pzclose" src="./src/close_black.png" style="width: 5rem;">
+                    </center>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="loadintbg">
+        <img id="loadintimg" src="./src/loading.png">
+    </div>
+
+
+
+
+    <script src="./src/Index_JavaScript.js"></script>
+
+    <script>
+        function UIon()
+        {
+            func_08(1)
+            func_09(5)
+            func_10(1)
+            document.getElementById("ALL").style.display = "block";
+        }
+//----------------------------------------------
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

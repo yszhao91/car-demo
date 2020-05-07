@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name='viewport'
+        content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no' />
+    <meta charset='utf-8'>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="canvas_styles.css">
+    <link rel="shortcut icon" href="">
+    <style></style>
+    <title>宝沃汽车WebVR</title>
+    <script src="playcanvas-stable.js"></script>
+
+    <script>
+        ASSET_PREFIX = "";
+        SCRIPT_PREFIX = "";
+        SCENE_PATH = "files/776384.json";
+        CONTEXT_OPTIONS = {
+            'antialias': true,
+            'alpha': false,
+            'preserveDrawingBuffer': false,
+            'preferWebGl2': true
+        };
+        SCRIPTS = [21400988, 21026654, 21046734, 21046735, 21046748, 21046750, 21046765, 21178831, 21283360, 21400989, 21400990, 21400991, 21400993, 21400994, 21401743, 21401964, 21403493, 21405276, 21430717, 21583716, 21619545, 21796176];
+        CONFIG_FILENAME = "files/config.json";
+        INPUT_SETTINGS = {
+            useKeyboard: true,
+            useMouse: true,
+            useGamepads: false,
+            useTouch: true
+        };
+        pc.script.legacy = false;
+        PRELOAD_MODULES = [
+        ];
+    </script>
+</head>
+
+<body onload="getSizew()" onresize="getSizew()">
+
+    <div id="white"></div>
+
+    <div id="loadframeint">
+        <div id="loadinint">
+            <img id="loadimg" src="Loading.gif"></img>
+            <div id="loadnumberbg"></div>
+            <div id="loadnumber">Loading...</div>
+            <div id="loadnumberbar"></div>
+        </div>
+    </div>
+
+    <div id="cont3" stayle="display:none"></div>
+
+</body>
+
+<script src="__start__.js"></script>
+
+<script src="canvas_JavaScript.js"></script>
+
+<script>
+
+    Load()
+
+    var app = pc.Application.getApplication();
+
+    //--------------------------------------------------------------
+    //当加载完成后，自动激活相应配置.
+    function starton()
+    {
+
+        parent.UIon();
+    }
+    app.on('start', starton);//
+
+
+
+</script>
+
+</html>
