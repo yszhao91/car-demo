@@ -9,6 +9,7 @@
 ## 安装使用
 
     通过http server 或 live server 或服务器上运行nixaiang.html
+    代码自己研究， 不接受此项目任何咨询
 
 ## 总结
 
